@@ -1,2 +1,4 @@
 builds:
-  - ldflags: "-extldflags '-static'"
+#   - ldflags: "-extldflags '-static'"
+  env:
+    - CGO_ENABLED=0
